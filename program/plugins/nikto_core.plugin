@@ -253,6 +253,7 @@ sub map_codes {
     # these are some used in mutate that may not be in the db_tests
     if (defined $CLI{'mutate'}) {
         $db_extensions{'bak'}  = 1;
+        $db_extensions{'old'}  = 1;
         $db_extensions{'data'} = 1;
         $db_extensions{'dbc'}  = 1;
         $db_extensions{'dbf'}  = 1;
